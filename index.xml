@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index version="1" commit="bd3fe2b06f9b023f3c74a13cb3f1fdf68ecddb70">
+  <category name="FX">
+    <reapack name="Marini_FX linker.lua" type="script" desc="Link FX chains of 2 different tracks (GUI)">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel2 \b \fs28 A GUI based lua script to link FX parameters across different tracks\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 This plugin runs a backgound task that links the selected tracks, ensuring that the plugin configurations of the 2 FX chains match\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 {\i A full Guide can be found {\field{\*\fldinst{HYPERLINK "https://github.com/mattia-marini/ReaperLink/blob/main/Guide.pdf"}}{\fldrslt{\ul
+here
+}}}
+}\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel3 \b \fs24 Usage:\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Run {\i "Marini_FX linker background tasks"} or configure automatic startup (see below)\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Toggle Ui with {\i "Marini_FX linker toggle UI.lua"} to create/remove links\sa180\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel3 \b \fs24 Features:\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Linking {\b every} parameters of {\b every} plugin across different tracks\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Linking state is saved on project basis\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab GUI based link managment\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Multiple tabs support and hot project reloading\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Flexible and roboust linking\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab {\b Zero dependency script}\sa180\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel3 \b \fs24 Automatic startup:\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 In order for the script to work, a background task should be running i.e., to make synching happen, you have to run the "Marini_FX linker background tasks" script every time you open Reaper. To make that happen automatically you can run the "Marini_FX linker toggle autostart". (you can see a script state next to its description in action list. Once set to on, the script will automatically launch on next startup)\par}
+}
+]]></description>
+      </metadata>
+      <version name="1.0" author="Marini Mattia" time="2024-03-09T18:25:51Z">
+        <source main="main" file="Marini_FX linker/Marini_FX linker background tasks.lua">https://github.com/mattia-marini/Marini-Scripts/raw/bd3fe2b06f9b023f3c74a13cb3f1fdf68ecddb70/FX/Marini_FX%20linker/Marini_FX%20linker%20background%20tasks.lua</source>
+        <source main="main" file="Marini_FX linker/Marini_FX linker toggle autostart.lua">https://github.com/mattia-marini/Marini-Scripts/raw/bd3fe2b06f9b023f3c74a13cb3f1fdf68ecddb70/FX/Marini_FX%20linker/Marini_FX%20linker%20toggle%20autostart.lua</source>
+        <source main="main" file="Marini_FX linker/Marini_FX linker toggle UI.lua">https://github.com/mattia-marini/Marini-Scripts/raw/bd3fe2b06f9b023f3c74a13cb3f1fdf68ecddb70/FX/Marini_FX%20linker/Marini_FX%20linker%20toggle%20UI.lua</source>
+      </version>
+    </reapack>
+  </category>
+</index>
