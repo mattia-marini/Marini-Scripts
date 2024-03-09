@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" commit="bd3fe2b06f9b023f3c74a13cb3f1fdf68ecddb70">
+<index version="1" commit="bd3fe2b06f9b023f3c74a13cb3f1fdf68ecddb70" name="Marini Scripts">
   <category name="FX">
     <reapack name="Marini_FX linker.lua" type="script" desc="Link FX chains of 2 different tracks (GUI)">
       <metadata>
